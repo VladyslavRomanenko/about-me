@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Vladyslav Romanenko</title>
+    <link rel="shortcut icon" href="img/favcon.ico" />
+
+    <!-- Bootstrap CSS https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Style.css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Plugins.css -->
+    <link rel="stylesheet" href="css/plugins.css" />
+    <!-- Google Fonts https://fonts.google.com/ -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Animate.css https://cdnjs.com/libraries/animate.css/
+		https://daneden.github.io/animate.css/ -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <!-- Lightbox Image Gallery https://cdnjs.com/libraries/lightbox2  https://lokeshdhakar.com/projects/lightbox2/ -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css"
+    />
+    <!-- Owl Carousel https://cdnjs.com/libraries/OwlCarousel2
+		http://owlcarousel2.github.io/OwlCarousel2/ -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <!-- jQuery https://code.jquery.com/ -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap JS https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+  </head>
+  <body data-spy="scroll" data-target="#navbarResponsive">
+    <!-- Start Home Section -->
+    <div id="home">
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <a href="#home">
+            <svg class="icon-logo">
+              <use href="./img/icons.svg#icon-vr"></use>
+            </svg>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+          >
+            <span class="custom-toggler-icon"><i class="fas fa-bars"></i></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#home" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About me</a>
+              </li>
+              <li class="nav-item">
+                <a href="#skills" class="nav-link">My skills</a>
+              </li>
+              <li class="nav-item">
+                <a href="#projects" class="nav-link">My projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navigation -->
+
+      <!-- Start Landing Page Image -->
+      <div class="landing">
+        <div class="home-wrap">
+          <div class="home-inner"></div>
+        </div>
+      </div>
+      <!-- End Landing Page Image -->
+
+      <!-- Start Landing Page Caption -->
+      <div class="caption text-center text-light text-uppercase">
+        <h1
+          class="font-weight-bold os-animation"
+          data-animation="fadeInUp"
+          data-delay=".6s"
+        >
+          Vladyslav Romanenko
+        </h1>
+        <h3
+          class="os-animation text-nuno"
+          data-animation="fadeInUp"
+          data-delay=".8s"
+        >
+          fullstack developer
+        </h3>
+      </div>
+      <!-- End Landing Page Caption -->
+
+      <!-- Start Bouncing Down Arrow -->
+      <a href="#features" class="down-arrow text-center">
+        <div class="arrow d-none d-md-block">
+          <i class="fas fa-angle-down"></i>
+        </div>
+      </a>
+      <!-- End Bouncing Down Arrow -->
+    </div>
+    <!-- End Home Section -->
+
+    <!-- Start Features Section -->
+    <div id="about" class="offset">
+      <!-- Start Theme Heading -->
+      <div
+        class="row text-center py-4 os-animation about-main-container"
+        data-animation="fadeInUp"
+      >
+        <div class="col-11 col-md-10 col-lg-9">
+          <h1>About me</h1>
+          <div class="d-flex align-items-center about-container">
+            <img
+              src="./img/about/about-me.jpg"
+              class="about-img"
+              width="300"
+              height="350"
+            />
+            <p class="lead text-justify">
+              Highly motivated Fullstack Developer with a passion for frontend
+              technologies. I am eager to secure a full-time role where I can
+              use my knowledge in HTML, CSS, JavaScript, React and Node.js to
+              create innovative and user-friendly web applications. As a
+              detail-oriented and goal-oriented individual, I take pride in my
+              well-developed organizational skills and analytical thinking,
+              which allow me to deliver high-quality results in a timely manner.
+              I thrive in a collaborative team environment and believe in the
+              power of effective communication to achieve project success.
+            </p>
+          </div>
+
+          <a href="#contact" class="btn btn-secondary btn-sm">My contacts</a>
+          <a href="#projects" class="btn btn-secondary btn-sm">My projects</a>
+          <a
+            href="./resume/Vladyslav_Romanenko_Junior_Fullstack_Developer.pdf"
+            class="btn btn-nuno btn-sm fancybox"
+            data-fancybox="resume"
+            >My resume</a
+          >
+        </div>
+      </div>
+      <!-- End Theme Heading -->
+
+      <!-- Start Fixed BG IMG Dark -->
+    </div>
+    <div class="fixed" id="skills">
+      <div class="row dark text-light text-center skills-container">
+        <div class="col-12 os-animation" data-animation="fadeInUp">
+          <h3 class="heading">My skills</h3>
+          <div class="heading-underline"></div>
+        </div>
+
+        <div class="col-md-4 os-animation" data-animation="fadeInLeft">
+          <div class="feature skills-box">
+            <h3 class="mb-5">FRONTEND</h3>
+            <ul class="skills-list pl-5">
+              <li class="about-list-item">
+                <span class="fa-layers fa-3x">
+                  <i class="fab fa-html5"></i>
+                </span>
+                <span class="ml-2 font-weight-bold">HTML 5</span>
+              </li>
+              <li class="about-list-item">
+                <span class="fa-layers fa-3x">
+                  <i class="fab fa-css3-alt"></i>
+                </span>
+                <span class="ml-2 font-weight-bold">CSS</span>
+              </li>
+              <li class="about-list-item">
+                <span
+                  class="fa-layers m-0 fa-3x d-flex justify-content-center align-items-center"
+                >
+                  <i class="fa-brands fa-js fa-sm"></i>
+                </span>
+                <span class="ml-2 font-weight-bold">JAVA SCRIPT</span>
+              </li>
+              <li class="about-list-item">
+                <span
+                  class="fa-layers m-0 fa-3x d-flex justify-content-center align-items-center"
+                >
+                  <svg class="icon-skills">
+                    <use href="./img/icons.svg#icon-ts"></use>
+                  </svg>
+                </span>
+                <span class="ml-2 font-weight-bold">TYPE SCRIPT</span>
+              </li>
+              <li class="about-list-item">
+                <span class="fa-layers m-0 fa-3x d-flex">
+                  <i class="fa-brands fa-react"></i>
+                </span>
+                <span class="ml-2 font-weight-bold">REACT</span>
+              </li>
+              <li class="about-list-item">
+                <span
+                  class="fa-layers m-0 fa-3x d-flex justify-content-center align-items-center"
+                >
+                  <svg width="35" height="35" class="icon-skills">
+                    <use href="./img/icons.svg#icon-redux"></use>
+                  </svg>
+                </span>
+                <span class="ml-2 font-weight-bold">REDUX</span>
+              </li>
+              <li class="about-list-item">
+                <span
+                  class="fa-layers m-0 fa-3x d-flex justify-content-center align-items-center"
+                >
+                  <svg width="35" height="35" class="icon-skills">
+                    <use href="./img/icons.svg#icon-api"></use>
+                  </svg>
+                </span>
+                <span class="ml-2 font-weight-bold">REST API</span>
+              </li>
+            </ul>
+          </div>
+          <!-- <p class="lead">Built with the latest, HTML 5.</p> -->
+        </div>
+
+        <div class="col-md-4 os-animation" data-animation="fadeInUp">
+          <div class="feature">
+            <h3 class="mb-5">BACKEND</h3>
+            <ul class="skills-list pl-5">
+              <li class="about-list-item">
+                <span
+                  class="fa-layers fa-3x d-flex justify-content-center align-items-center"
+                >
+                  <i class="fa-brands fa-node fa-sm"></i>
+                </span>
+                <span class="ml-2 font-weight-bold">NODE.JS</span>
+              </li>
+              <li class="about-list-item">
+                <span
+                  class="fa-layers fa-3x d-flex justify-content-center align-items-center"
+                >
+                  <svg width="35" height="35" class="icon-skills">
+                    <use href="./img/icons.svg#icon-swagger"></use>
+                  </svg>
+                </span>
+                <span class="ml-2 font-weight-bold">SWAGGER</span>
+              </li>
+              <li class="about-list-item">
+                <span
+                  class="fa-layers fa-3x d-flex justify-content-center align-items-center"
+                >
+                  <svg width="35" height="35" class="icon-skills">
+                    <use href="./img/icons.svg#icon-mongodb"></use>
+                  </svg>
+                </span>
+                <span class="ml-2 font-weight-bold">MONGO DB</span>
+              </li>
+              <li class="about-list-item">
+                <span
+                  class="fa-layers fa-3x d-flex justify-content-center align-items-center"
+                >
+                  <svg width="35" height="35" class="icon-skills">
+                    <use href="./img/icons.svg#icon-express"></use>
+                  </svg>
+                </span>
+                <span class="ml-2 font-weight-bold">EXPRESS.JS</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-4 os-animation" data-animation="fadeInRight">
+          <div class="feature">
+            <h3 class="mb-5">UTILS</h3>
+            <ul class="skills-list pl-5">
+              <li class="about-list-item">
+                <span
+                  class="fa-layers fa-3x d-flex justify-content-center align-items-center"
+                >
+                  <svg width="35" height="35" class="icon-skills">
+                    <use href="./img/icons.svg#icon-vs-code"></use>
+                  </svg>
+                </span>
+                <span class="ml-2 font-weight-bold">VS CODE</span>
+              </li>
+              <li class="about-list-item">
+                <span
+                  class="fa-layers fa-3x d-flex justify-content-center align-items-center"
+                >
+                  <i class="fa-brands fa-square-github"></i>
+                </span>
+                <span class="ml-2 font-weight-bold">GIT HUB</span>
+              </li>
+              <li class="about-list-item">
+                <span
+                  class="fa-layers fa-3x d-flex justify-content-center align-items-center"
+                >
+                  <i class="fa-brands fa-figma"></i>
+                </span>
+                <span class="ml-2 font-weight-bold">FIGMA</span>
+              </li>
+              <li class="about-list-item">
+                <span
+                  class="fa-layers fa-3x d-flex justify-content-center align-items-center"
+                >
+                  <svg width="35" height="35" class="icon-skills">
+                    <use href="./img/icons.svg#icon-postman"></use>
+                  </svg>
+                </span>
+                <span class="ml-2 font-weight-bold">POSTMAN</span>
+              </li>
+              <li class="about-list-item">
+                <span
+                  class="fa-layers fa-3x d-flex justify-content-center align-items-center"
+                >
+                  <svg width="35" height="35" class="icon-skills">
+                    <use href="./img/icons.svg#icon-trello"></use>
+                  </svg>
+                </span>
+                <span class="ml-2 font-weight-bold">TRELLO</span>
+              </li>
+              <li class="about-list-item">
+                <span
+                  class="fa-layers fa-3x d-flex justify-content-center align-items-center"
+                >
+                  <svg width="35" height="35" class="icon-skills">
+                    <use href="./img/icons.svg#icon-slack"></use>
+                  </svg>
+                </span>
+                <span class="ml-2 font-weight-bold">SLACK</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- End Row Dark -->
+
+        <div class="fixed-wrap">
+          <div class="fixed-dark"></div>
+        </div>
+      </div>
+      <!-- End Fixed BG IMG Dark -->
+    </div>
+    <!-- End of Features Section -->
+
+    <!-- Start Portfolio Section -->
+    <!-- <div id="portfolio" class="offset">
+      <div class="container-fluid px-0">
+        <div class="row justify-content-center py-5">
+          <div class="col-12 mt-5 os-animation" data-animation="fadeInUp">
+            <h3 class="heading">Portfolio</h3>
+            <div class="heading-underline"></div>
+          </div>
+
+          <div
+            class="col-sm-6 col-md-3 p-0 os-animation"
+            data-animation="bounceInLeft"
+            data-delay=".2s"
+          >
+            <div class="portfolio-item overflow-hidden">
+              <a
+                href="img/portfolio/1.jpg"
+                data-lightbox="example-set"
+                data-title="My Portfolio Image Description"
+              >
+                <img
+                  src="img/portfolio/1.jpg"
+                  alt=""
+                  class="example-image w-100"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="col-sm-6 col-md-3 p-0 os-animation"
+            data-animation="bounceInLeft"
+          >
+            <div class="portfolio-item overflow-hidden">
+              <a
+                href="img/portfolio/2.jpg"
+                data-lightbox="example-set"
+                data-title="My Portfolio Image Description"
+              >
+                <img
+                  src="img/portfolio/2.jpg"
+                  alt=""
+                  class="example-image w-100"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="col-sm-6 col-md-3 p-0 os-animation"
+            data-animation="bounceInRight"
+          >
+            <div class="portfolio-item overflow-hidden">
+              <a
+                href="img/portfolio/3.jpg"
+                data-lightbox="example-set"
+                data-title="My Portfolio Image Description"
+              >
+                <img
+                  src="img/portfolio/3.jpg"
+                  alt=""
+                  class="example-image w-100"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="col-sm-6 col-md-3 p-0 os-animation"
+            data-animation="bounceInRight"
+            data-delay=".2s"
+          >
+            <div class="portfolio-item overflow-hidden">
+              <a
+                href="img/portfolio/4.jpg"
+                data-lightbox="example-set"
+                data-title="My Portfolio Image Description"
+              >
+                <img
+                  src="img/portfolio/4.jpg"
+                  alt=""
+                  class="example-image w-100"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="col-sm-6 col-md-3 p-0 os-animation"
+            data-animation="bounceInLeft"
+            data-delay=".2s"
+          >
+            <div class="portfolio-item overflow-hidden">
+              <a
+                href="img/portfolio/5.jpg"
+                data-lightbox="example-set"
+                data-title="My Portfolio Image Description"
+              >
+                <img
+                  src="img/portfolio/5.jpg"
+                  alt=""
+                  class="example-image w-100"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="col-sm-6 col-md-3 p-0 os-animation"
+            data-animation="bounceInLeft"
+          >
+            <div class="portfolio-item overflow-hidden">
+              <a
+                href="img/portfolio/6.jpg"
+                data-lightbox="example-set"
+                data-title="My Portfolio Image Description"
+              >
+                <img
+                  src="img/portfolio/6.jpg"
+                  alt=""
+                  class="example-image w-100"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="col-sm-6 col-md-3 p-0 os-animation"
+            data-animation="bounceInRight"
+          >
+            <div class="portfolio-item overflow-hidden">
+              <a
+                href="img/portfolio/7.jpg"
+                data-lightbox="example-set"
+                data-title="My Portfolio Image Description"
+              >
+                <img
+                  src="img/portfolio/7.jpg"
+                  alt=""
+                  class="example-image w-100"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="col-sm-6 col-md-3 p-0 os-animation"
+            data-animation="bounceInRight"
+            data-delay=".2s"
+          >
+            <div class="portfolio-item overflow-hidden">
+              <a
+                href="img/portfolio/8.jpg"
+                data-lightbox="example-set"
+                data-title="My Portfolio Image Description"
+              >
+                <img
+                  src="img/portfolio/8.jpg"
+                  alt=""
+                  class="example-image w-100"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="col-10 col-lg-9 col-xl-8 text-center pt-5 os-animation"
+            data-animation="fadeInUp"
+          >
+            <p class="lead">
+              Get in contact with us to see more of our great portfolio design
+              work in addition to web development projects such as websites,
+              apps and more!
+            </p>
+            <a href="#contact" class="btn btn-secondary btn-sm">Get In Touch</a>
+          </div>
+        </div>
+      End Row -->
+    <!-- </div> -->
+    <!-- End Container -->
+    <!-- </div> -->
+    <!-- End of Portfolio Section -->
+
+    <!-- Start Team Section -->
+    <div id="projects" class="offset">
+      <!-- Start Fixed BG IMG Light -->
+      <div class="fixed">
+        <div class="row light">
+          <div class="col-12 os-animation" data-animation="fadeInUp">
+            <h3 class="heading">My projects</h3>
+            <div class="heading-underline"></div>
+          </div>
+
+          <div class="container">
+            <div class="os-animation" data-animation="fadeInUp">
+              <div id="team-carousel" class="owl-carousel owl-theme">
+                <div class="card">
+                  <img
+                    src="img/projects/pets.png"
+                    alt=""
+                    class="card-img-top rounded-0 project-images"
+                  />
+                  <div class="card-body">
+                    <h4 class="font-weight-bold text-nuno">MY PETS</h4>
+                    <h5>Command project</h5>
+                    <ul class="social">
+                      <li>
+                        <a
+                          href="https://your-pets-frontend.vercel.app/"
+                          target="_blank"
+                          ><i class="fas fa-globe"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://github.com/VladyslavRomanenko/your-pets-backend"
+                          target="_blank"
+                          ><i class="fab fa-github"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://github.com/VladyslavRomanenko/your-pets-frontend"
+                          target="_blank"
+                          ><i class="fab fa-github"></i
+                        ></a>
+                      </li>
+                    </ul>
+                    <p class="border-top border-bottom py-3 my-3">
+                      Web site for finding animals. The user can sell, search or
+                      give the animal into good hands.
+                    </p>
+                    <p class="border-top border-bottom py-3 my-3">
+                      Role: Developer
+                    </p>
+                    <p class="border-top border-bottom py-3 my-3">
+                      Skills: Node.js, Express.js, Rest API
+                    </p>
+                    <p class="border-top border-bottom py-3 my-3">
+                      Tools: VS Code, Git, Postman, Mongo DB, Figma, Trello,
+                      Slack
+                    </p>
+                    <p class="border-top border-bottom py-3 my-3">
+                      I was responsible for developing and maintaining the
+                      backend part, specifically handling all requests related
+                      to notices, pets, friends, and filters.
+                    </p>
+                  </div>
+                </div>
+                <!-- End Card -->
+
+                <div class="card">
+                  <img
+                    src="img/projects/money.png"
+                    alt=""
+                    class="card-img-top rounded-0 project-images"
+                  />
+                  <div class="card-body">
+                    <h4 class="font-weight-bold text-nuno">MONEY GUARD</h4>
+                    <h5>Command project</h5>
+                    <ul class="social">
+                      <li>
+                        <a
+                          href="https://vladyslavromanenko.github.io/MONEYGUARD/"
+                          target="_blank"
+                          ><i class="fas fa-globe"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://github.com/VladyslavRomanenko/MONEYGUARD"
+                          target="_blank"
+                          ><i class="fab fa-github"></i
+                        ></a>
+                      </li>
+                    </ul>
+                    <p class="border-top border-bottom py-3 my-3">
+                      A web site for money where you can track income and
+                      expenses and view their statistics
+                    </p>
+                    <p class="border-top border-bottom py-3 my-3">
+                      Role: Developer
+                    </p>
+                    <p class="border-top border-bottom py-3 my-3">
+                      Skills: React, Redux, Java Script, Rest API, HTML, CSS
+                    </p>
+                    <p class="border-top border-bottom py-3 my-3">
+                      Tools: VS Code, Git, Figma, Trello, Slack
+                    </p>
+                    <p class="border-top border-bottom py-3 my-3">
+                      On our team project, I created a modal window for adding
+                      transactions. Furthermore, I was doing a modal windows for
+                      editing transactions and for logging out.
+                    </p>
+                  </div>
+                </div>
+                <!-- End Card -->
+
+                <div class="card">
+                  <img
+                    src="img/projects/marvel.png"
+                    alt=""
+                    class="card-img-top rounded-0 project-images"
+                  />
+                  <div class="card-body">
+                    <h4 class="font-weight-bold text-nuno">MARVEL</h4>
+                    <h5>Command project</h5>
+                    <ul class="social">
+                      <li>
+                        <a
+                          href="https://vladyslavromanenko.github.io/MARVEL/"
+                          target="_blank"
+                          ><i class="fas fa-globe"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://github.com/VladyslavRomanenko/MARVEL"
+                          target="_blank"
+                          ><i class="fab fa-github"></i
+                        ></a>
+                      </li>
+                    </ul>
+                    <p class="border-top border-bottom py-3 my-3">
+                      The website is dedicated to the Marvel Cinematic Universe,
+                      allowing users to find their favorite comics or heroes and
+                      access comprehensive information about them.
+                    </p>
+                    <p class="border-top border-bottom py-3 my-3">
+                      Role: Developer
+                    </p>
+                    <p class="border-top border-bottom py-3 my-3">
+                      Skills: HTML, CSS, Java Script, Rest API
+                    </p>
+                    <p class="border-top border-bottom py-3 my-3">
+                      Tools: VS Code, Git, Figma, Trello, Slack
+                    </p>
+                    <p class="border-top border-bottom py-3 my-3">
+                      In the project I created a random characters section and a
+                      modal window in that section. And made edits to the second
+                      modal window.
+                    </p>
+                  </div>
+                </div>
+                <!-- End Card -->
+
+                <div class="card">
+                  <img
+                    src="img/projects/chocolate.png"
+                    alt=""
+                    class="card-img-top rounded-0 project-images"
+                  />
+                  <div class="card-body">
+                    <h4 class="font-weight-bold text-nuno">SIMPLY CHOCOLATE</h4>
+                    <h5>Command project</h5>
+                    <ul class="social">
+                      <li>
+                        <a
+                          href="https://vladyslavromanenko.github.io/SIMPLY-CHOCOLATE/"
+                          target="_blank"
+                          ><i class="fas fa-globe"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://github.com/VladyslavRomanenko/SIMPLY-CHOCOLATE"
+                          target="_blank"
+                          ><i class="fab fa-github"></i
+                        ></a>
+                      </li>
+                    </ul>
+                    <p class="border-top border-bottom py-3 my-3">
+                      The website was designed for a chocolate product company.
+                      It features an attractive and user-friendly interface
+                      showcasing the diverse range of chocolate products.
+                    </p>
+                    <p class="border-top border-bottom py-3 my-3">
+                      Role: Developer
+                    </p>
+                    <p class="border-top border-bottom py-3 my-3">
+                      Skills: HTML, CSS
+                    </p>
+                    <p class="border-top border-bottom py-3 my-3">
+                      Tools: VS Code, Git, Figma, Trello, Slack
+                    </p>
+                    <p class="border-top border-bottom py-3 my-3">
+                      It's first my command project. I worked on the "Buy Now"
+                      modal window and created unique components section of the
+                      website with title "IT ALL ADDS UP TO ONE EXCEPTIONAL
+                      TASTE SENSATION"
+                    </p>
+                  </div>
+                </div>
+                <!-- End Card -->
+              </div>
+              <!-- End Team Carousel -->
+            </div>
+            <!-- End Animation -->
+          </div>
+          <!-- End Container -->
+        </div>
+        <!-- End Row -->
+
+        <div class="fixed-wrap">
+          <div class="fixed-light"></div>
+        </div>
+      </div>
+      <!-- End Fixed BG IMG Light -->
+    </div>
+    <!-- End Team Section -->
+
+    <!-- Start Contact Section -->
+    <div id="contact" class="offset">
+      <div class="container-fluid footer px-0">
+        <div class="row outer">
+          <div class="container">
+            <div class="row py-3">
+              <div class="col-md-5 px-0 pr-md-3">
+                <div class="d-flex flex-column">
+                  <h3>Contact information</h3>
+                  <h5>Vladyslav Romanenko</h5>
+                  <p>Kyiv, Ukraine</p>
+                  <a href="tel:0936030301">(093)-603-03-01</a>
+                  <a href="mailto:vladyslavromanenkoo@gmai.com"
+                    >vladyslavromanenkoo@gmai.com</a
+                  >
+                </div>
+
+                <ul class="social pt-3">
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/in/vladyslav-romanenko/"
+                      target="_blank"
+                      ><i class="fab fa-linkedin"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://github.com/VladyslavRomanenko"
+                      target="_blank"
+                      ><i class="fab fa-github"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.facebook.com/profile.php?id=100001997404219"
+                      target="_blank"
+                      ><i class="fab fa-facebook-square"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://t.me/vlromxm" target="_blank"
+                      ><i class="fab fa-telegram"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+              <!-- End Column -->
+
+              <!-- <div class="col-md-7 px-0 pl-md-3">
+                <h3>Contact Us</h3>
+
+                <form
+                  action="contact/contact.php"
+                  method="POST"
+                  id="contact-form"
+                >
+                  <div class="messages"></div>
+                  <div class="controls">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        id="form_name"
+                        class="form-control"
+                        name="name"
+                        required="required"
+                        placeholder="Enter your name."
+                      />
+                    </div>
+
+                    <div class="form-group">
+                      <input
+                        type="email"
+                        id="form_email"
+                        class="form-control"
+                        name="email"
+                        required="required"
+                        placeholder="Enter your email."
+                      />
+                    </div>
+
+                    <div class="form-group">
+                      <textarea
+                        name="message"
+                        id="form_message"
+                        rows="4"
+                        class="form-control"
+                        required="required"
+                        placeholder="Add your message."
+                      ></textarea>
+                    </div>
+
+                    <input
+                      type="submit"
+                      class="btn btn-outline-light btn-sm"
+                      value="Send Message"
+                    />
+                  </div>
+                  End Controls -->
+              <!-- </form> -->
+              <!-- End Form -->
+              <!-- </div> -->
+
+              <!-- End Column -->
+            </div>
+            <!-- End Row -->
+          </div>
+          <!-- End Container -->
+
+          <hr class="socket" />
+        </div>
+        <!-- End Row Outer -->
+      </div>
+      <!-- End Container Fluid -->
+    </div>
+    <!-- End Contact Section -->
+
+    <!-- Top Scroll -->
+    <a href="#home" class="top-scroll">
+      <i class="fa fa-angle-up"></i>
+    </a>
+    <!-- End of Top Scroll -->
+
+    <!-- Script Source Files -->
+
+    <!-- Plugins.js -->
+    <script src="js/plugins.js"></script>
+    <!-- Waypoints https://cdnjs.com/libraries/waypoints
+		https://github.com/imakewebthings/waypoints -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <!-- Font Awesome https://fontawesome.com/  https://use.fontawesome.com/releases/v5.11.2/js/all.js -->
+    <script src="https://use.fontawesome.com/releases/v5.11.2/js/all.js"></script>
+    <!-- Lightbox Image Gallery https://cdnjs.com/libraries/lightbox2  https://lokeshdhakar.com/projects/lightbox2/ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+    <!-- Owl Carousel https://cdnjs.com/libraries/OwlCarousel2
+		http://owlcarousel2.github.io/OwlCarousel2/ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- jQuery CounterUp https://www.jsdelivr.com/package/npm/jquery.counterup
+		https://github.com/bfintal/Counter-Up2 -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery.counterup@2.1.0/jquery.counterup.min.js"></script>
+    <!-- Bootstrap Form Validator https://cdnjs.com/libraries/1000hz-bootstrap-validator -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/97d16386f9.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
