@@ -541,6 +541,10 @@ a.top-scroll:hover {
 
 /* === new changes ===*/
 @media (max-width: 767.98px) {
+  .landing {
+    height: 100vh;
+  }
+
   .about-main-container {
     justify-content: center;
   }
