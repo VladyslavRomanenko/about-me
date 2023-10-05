@@ -539,6 +539,10 @@ a.top-scroll:hover {
   text-decoration: none;
 }
 
+.about-main-container {
+  justify-content: center;
+}
+
 /* === new changes ===*/
 @media (max-width: 767.98px) {
   .landing {
@@ -546,7 +550,6 @@ a.top-scroll:hover {
   }
 
   .about-main-container {
-    justify-content: center;
     background-color: #fff;
   }
 
@@ -573,6 +576,14 @@ a.top-scroll:hover {
   }
 }
 
+@media (min-width: 991.98px) {
+  .about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+}
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
