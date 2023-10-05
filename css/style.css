@@ -549,9 +549,6 @@ a.top-scroll:hover {
     justify-content: center;
   }
 
-  .caption {
-    top: 32%;
-  }
   .about-container {
     display: flex;
     flex-direction: column;
